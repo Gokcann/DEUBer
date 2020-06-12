@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.deubercomp.deuber.OtostopcuGirisActivity"
+    android:orientation="vertical">
+
+    <!-- surucu giris ekrani icin mail ve sifre girisi yapilacagindan
+    iki ayri edit text olusturuyoruz, kayit ol
+     ve giris yap butonlarini ekliyoruz -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail adresinizi girin"
+        android:id="@+id/email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sifrenizi girin"
+        android:id="@+id/sifre"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GIRIS YAP"
+        android:id="@+id/giris"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KAYIT OL"
+        android:id="@+id/kayit"/>
+
+</LinearLayout>

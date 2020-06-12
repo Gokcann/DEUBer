@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "566450706819",
+    "firebase_url": "https://deuberapp.firebaseio.com",
+    "project_id": "deuberapp",
+    "storage_bucket": "deuberapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566450706819:android:1bae35f1590e9930",
+        "android_client_info": {
+          "package_name": "com.deubercomp.deuber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566450706819-vti60hc324s65m3t13ju4lil6em1i124.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deubercomp.deuber",
+            "certificate_hash": "9914b331b485dcd405314f05a338aa89fbd297d0"
+          }
+        },
+        {
+          "client_id": "566450706819-sgc2dcj4o1o398uc2ra2mlafs11ltl07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxQKeywx1ZMe6-MZQoOcCM9uvAF33Hw_4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566450706819-sgc2dcj4o1o398uc2ra2mlafs11ltl07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
